@@ -165,8 +165,15 @@
             'g.DrawString(lblDisplayArea.Text, lblDisplayArea.Font, brushColor, lblDisplayArea.Bounds, strFormat)
 
             lblDisplayArea.ForeColor = s7_c(ListIndex(iCurrent))
-            lblDisplayArea.BackColor = Color.LightGray
+            'lblDisplayArea.BackColor = Color.LightGray
         End If
     End Sub
 
+    Private Sub btnShowReadMethod_MouseDown(sender As Object, e As MouseEventArgs) Handles btnShowReadMethod.MouseDown
+        lblReadMethod.Visible = True
+    End Sub
+
+    Private Sub btnShowReadMethod_MouseUp(sender As Object, e As MouseEventArgs) Handles btnShowReadMethod.MouseUp
+        lblReadMethod.Visible = False
+    End Sub
 End Class
