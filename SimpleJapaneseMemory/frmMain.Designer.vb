@@ -37,6 +37,7 @@ Partial Class frmMain
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lblVersion = New System.Windows.Forms.Label()
         Me.btnNinth = New System.Windows.Forms.Button()
+        Me.lblGithubLink = New System.Windows.Forms.LinkLabel()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -183,12 +184,24 @@ Partial Class frmMain
         Me.btnNinth.Text = "色の書き取り"
         Me.btnNinth.UseVisualStyleBackColor = True
         '
+        'lblGithubLink
+        '
+        Me.lblGithubLink.AutoSize = True
+        Me.lblGithubLink.LinkVisited = True
+        Me.lblGithubLink.Location = New System.Drawing.Point(12, 320)
+        Me.lblGithubLink.Name = "lblGithubLink"
+        Me.lblGithubLink.Size = New System.Drawing.Size(252, 12)
+        Me.lblGithubLink.TabIndex = 7
+        Me.lblGithubLink.TabStop = True
+        Me.lblGithubLink.Text = "https://github.com/tonywang806/BaseJapanese"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(420, 342)
+        Me.Controls.Add(Me.lblGithubLink)
         Me.Controls.Add(Me.lblVersion)
         Me.Controls.Add(Me.btnNinth)
         Me.Controls.Add(Me.btnEigth)
@@ -209,6 +222,7 @@ Partial Class frmMain
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -226,4 +240,5 @@ Partial Class frmMain
     Friend WithEvents btnSeventh As Button
     Friend WithEvents lblVersion As Label
     Friend WithEvents btnNinth As Button
+    Friend WithEvents lblGithubLink As LinkLabel
 End Class
