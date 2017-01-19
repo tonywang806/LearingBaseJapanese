@@ -24,10 +24,10 @@ Partial Class frmShowOthers
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShowOthers))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.lblReadMethod = New System.Windows.Forms.Label()
         Me.lblDisplayArea = New System.Windows.Forms.Label()
         Me.btnReStart = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.lblReadMethod = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,6 +39,16 @@ Partial Class frmShowOthers
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(478, 283)
         Me.Panel1.TabIndex = 0
+        '
+        'lblReadMethod
+        '
+        Me.lblReadMethod.Font = New System.Drawing.Font("MS UI Gothic", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblReadMethod.Location = New System.Drawing.Point(1, 215)
+        Me.lblReadMethod.Name = "lblReadMethod"
+        Me.lblReadMethod.Size = New System.Drawing.Size(476, 23)
+        Me.lblReadMethod.TabIndex = 1
+        Me.lblReadMethod.Text = "Label1"
+        Me.lblReadMethod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblDisplayArea
         '
@@ -71,16 +81,6 @@ Partial Class frmShowOthers
         Me.btnNext.TabIndex = 3
         Me.btnNext.Text = "次へ"
         Me.btnNext.UseVisualStyleBackColor = True
-        '
-        'lblReadMethod
-        '
-        Me.lblReadMethod.Font = New System.Drawing.Font("MS UI Gothic", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblReadMethod.Location = New System.Drawing.Point(3, 215)
-        Me.lblReadMethod.Name = "lblReadMethod"
-        Me.lblReadMethod.Size = New System.Drawing.Size(472, 23)
-        Me.lblReadMethod.TabIndex = 1
-        Me.lblReadMethod.Text = "Label1"
-        Me.lblReadMethod.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmShowOthers
         '
