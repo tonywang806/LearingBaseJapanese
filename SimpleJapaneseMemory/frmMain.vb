@@ -24,4 +24,9 @@ Public Class frmMain
         lblVersion.Text = String.Format("{0}.{1}", strPrefix, strVersion)
     End Sub
 
+    Private Sub lblGithubLink_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lblGithubLink.LinkClicked
+        lblGithubLink.LinkVisited = True
+        'ブラウザで開く
+        System.Diagnostics.Process.Start(lblGithubLink.Text)
+    End Sub
 End Class
