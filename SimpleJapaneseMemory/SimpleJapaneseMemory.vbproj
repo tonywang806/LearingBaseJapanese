@@ -145,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
+    <None Include="Resources\eyes.png" />
     <None Include="Resources\黄道十二宫.png" />
   </ItemGroup>
   <ItemGroup />
