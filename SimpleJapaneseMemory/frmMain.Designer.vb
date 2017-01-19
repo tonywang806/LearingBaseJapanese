@@ -36,6 +36,7 @@ Partial Class frmMain
         Me.btnSeventh = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lblVersion = New System.Windows.Forms.Label()
+        Me.btnNinth = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -43,7 +44,7 @@ Partial Class frmMain
         '
         Me.btnFirst.Location = New System.Drawing.Point(12, 185)
         Me.btnFirst.Name = "btnFirst"
-        Me.btnFirst.Size = New System.Drawing.Size(272, 35)
+        Me.btnFirst.Size = New System.Drawing.Size(154, 35)
         Me.btnFirst.TabIndex = 0
         Me.btnFirst.Text = "五十音図の書き取り"
         Me.btnFirst.UseVisualStyleBackColor = True
@@ -54,6 +55,7 @@ Partial Class frmMain
         Me.btnSecond.Name = "btnSecond"
         Me.btnSecond.Size = New System.Drawing.Size(204, 35)
         Me.btnSecond.TabIndex = 0
+        Me.btnSecond.Tag = "Date"
         Me.btnSecond.Text = "日付の書き取り"
         Me.btnSecond.UseVisualStyleBackColor = True
         '
@@ -63,15 +65,17 @@ Partial Class frmMain
         Me.btnThird.Name = "btnThird"
         Me.btnThird.Size = New System.Drawing.Size(204, 33)
         Me.btnThird.TabIndex = 0
+        Me.btnThird.Tag = "Numberic"
         Me.btnThird.Text = "数値の書き取り"
         Me.btnThird.UseVisualStyleBackColor = True
         '
         'btnSixth
         '
-        Me.btnSixth.Location = New System.Drawing.Point(12, 229)
+        Me.btnSixth.Location = New System.Drawing.Point(184, 185)
         Me.btnSixth.Name = "btnSixth"
-        Me.btnSixth.Size = New System.Drawing.Size(272, 35)
+        Me.btnSixth.Size = New System.Drawing.Size(91, 35)
         Me.btnSixth.TabIndex = 0
+        Me.btnSixth.Tag = "Place"
         Me.btnSixth.Text = "地名の書き取り"
         Me.btnSixth.UseVisualStyleBackColor = True
         '
@@ -81,6 +85,7 @@ Partial Class frmMain
         Me.btnForth.Name = "btnForth"
         Me.btnForth.Size = New System.Drawing.Size(204, 33)
         Me.btnForth.TabIndex = 0
+        Me.btnForth.Tag = "Weeks"
         Me.btnForth.Text = "曜日の書き取り"
         Me.btnForth.UseVisualStyleBackColor = True
         '
@@ -90,6 +95,7 @@ Partial Class frmMain
         Me.btnFifth.Name = "btnFifth"
         Me.btnFifth.Size = New System.Drawing.Size(204, 33)
         Me.btnFifth.TabIndex = 0
+        Me.btnFifth.Tag = "Month"
         Me.btnFifth.Text = "月の書き取り"
         Me.btnFifth.UseVisualStyleBackColor = True
         '
@@ -101,7 +107,7 @@ Partial Class frmMain
         Me.Panel1.Controls.Add(Me.rdoFixed)
         Me.Panel1.Location = New System.Drawing.Point(310, 185)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(96, 157)
+        Me.Panel1.Size = New System.Drawing.Size(96, 117)
         Me.Panel1.TabIndex = 1
         '
         'rdoRandom
@@ -128,19 +134,21 @@ Partial Class frmMain
         '
         'btnEigth
         '
-        Me.btnEigth.Location = New System.Drawing.Point(12, 309)
+        Me.btnEigth.Location = New System.Drawing.Point(125, 226)
         Me.btnEigth.Name = "btnEigth"
-        Me.btnEigth.Size = New System.Drawing.Size(272, 35)
+        Me.btnEigth.Size = New System.Drawing.Size(150, 35)
         Me.btnEigth.TabIndex = 3
+        Me.btnEigth.Tag = "Orientation"
         Me.btnEigth.Text = "方位の書き取り"
         Me.btnEigth.UseVisualStyleBackColor = True
         '
         'btnSeventh
         '
-        Me.btnSeventh.Location = New System.Drawing.Point(12, 268)
+        Me.btnSeventh.Location = New System.Drawing.Point(12, 226)
         Me.btnSeventh.Name = "btnSeventh"
-        Me.btnSeventh.Size = New System.Drawing.Size(272, 35)
+        Me.btnSeventh.Size = New System.Drawing.Size(93, 35)
         Me.btnSeventh.TabIndex = 4
+        Me.btnSeventh.Tag = "Direction"
         Me.btnSeventh.Text = "方向の書き取り"
         Me.btnSeventh.UseVisualStyleBackColor = True
         '
@@ -158,20 +166,31 @@ Partial Class frmMain
         'lblVersion
         '
         Me.lblVersion.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblVersion.Location = New System.Drawing.Point(306, 348)
+        Me.lblVersion.Location = New System.Drawing.Point(306, 315)
         Me.lblVersion.Name = "lblVersion"
         Me.lblVersion.Size = New System.Drawing.Size(100, 23)
         Me.lblVersion.TabIndex = 5
-        Me.lblVersion.Text = "Ver.1.0.2.0"
+        Me.lblVersion.Text = "Ver.0.0.0.0"
         Me.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'btnNinth
+        '
+        Me.btnNinth.Location = New System.Drawing.Point(12, 267)
+        Me.btnNinth.Name = "btnNinth"
+        Me.btnNinth.Size = New System.Drawing.Size(263, 35)
+        Me.btnNinth.TabIndex = 3
+        Me.btnNinth.Tag = "Color"
+        Me.btnNinth.Text = "色の書き取り"
+        Me.btnNinth.UseVisualStyleBackColor = True
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(420, 380)
+        Me.ClientSize = New System.Drawing.Size(420, 342)
         Me.Controls.Add(Me.lblVersion)
+        Me.Controls.Add(Me.btnNinth)
         Me.Controls.Add(Me.btnEigth)
         Me.Controls.Add(Me.btnSeventh)
         Me.Controls.Add(Me.Panel2)
@@ -206,4 +225,5 @@ Partial Class frmMain
     Friend WithEvents btnEigth As Button
     Friend WithEvents btnSeventh As Button
     Friend WithEvents lblVersion As Label
+    Friend WithEvents btnNinth As Button
 End Class

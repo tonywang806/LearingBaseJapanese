@@ -48,6 +48,13 @@
     Private s6_r As String() = {"ほうこう", "うえ", "した", "ひだり", "みぎ", "ちゅうおう",
                                 "まえ", "うしろ", "ぜんご", "さゆう", "そと", "おく"}
 
+    Private s7 As String() = {"色", "赤色", "青色", "黄色", "緑色", "白色", "茶色",
+                              "青い", "赤い", "白い", "黒い"}
+    Private s7_r As String() = {"いろ", "あかいろ", "あおいろ",
+                               "きいろ", "りょくしょく", "はくしょく", "ちゃいろ", "あおい", "あかい", "しろい", "くろい"}
+    Private s7_c As Color() = {Color.Black, Color.Red, Color.Blue,
+                               Color.Yellow, Color.Green, Color.White, Color.Brown, Color.Blue, Color.Red, Color.White, Color.Black}
+
     Public Sub InitalizedFirst(ByVal type As String, Optional ByVal isRandom As Boolean = True)
 
         lblDisplayArea.Text = String.Empty
@@ -77,6 +84,9 @@
             Case "Direction"
                 displaysStringArray = s6
                 displaysStringArray_r = s6_r
+            Case "Color"
+                displaysStringArray = s7
+                displaysStringArray_r = s7_r
         End Select
 
         For i As Integer = 0 To displaysStringArray.Length - 1
@@ -95,7 +105,6 @@
             btnReStart.Enabled = False
 
             iCurrent = 0
-
             SetDisplayText()
         End If
 
@@ -138,4 +147,26 @@
         lblDisplayArea.Text = displaysStringArray(ListIndex(iCurrent))
         lblReadMethod.Text = displaysStringArray_r(ListIndex(iCurrent))
     End Sub
+
+    Private Sub lblDisplayArea_Paint(sender As Object, e As PaintEventArgs) Handles lblDisplayArea.Paint
+        If strType = "Color" Then
+
+            'Dim g As Graphics = e.Graphics
+            ''黒い場合、文字色を変更することが中止
+            'If s7_c(ListIndex(iCurrent)) = Color.Black Then
+            '    Return
+            'End If
+            ''上記以外、文字色を変更する
+            'Dim brushColor As New SolidBrush(s7_c(ListIndex(iCurrent)))
+            'Dim strFormat As New StringFormat(StringFormatFlags.NoClip)
+            'strFormat.Alignment = StringAlignment.Center
+            'strFormat.LineAlignment = StringAlignment.Center
+
+            'g.DrawString(lblDisplayArea.Text, lblDisplayArea.Font, brushColor, lblDisplayArea.Bounds, strFormat)
+
+            lblDisplayArea.ForeColor = s7_c(ListIndex(iCurrent))
+            lblDisplayArea.BackColor = Color.LightGray
+        End If
+    End Sub
+
 End Class
