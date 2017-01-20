@@ -170,12 +170,12 @@ Partial Class frmMain
         '
         Me.lblGithubLink.AutoSize = True
         Me.lblGithubLink.LinkVisited = True
-        Me.lblGithubLink.Location = New System.Drawing.Point(58, 321)
+        Me.lblGithubLink.Location = New System.Drawing.Point(53, 321)
         Me.lblGithubLink.Name = "lblGithubLink"
-        Me.lblGithubLink.Size = New System.Drawing.Size(289, 12)
+        Me.lblGithubLink.Size = New System.Drawing.Size(338, 12)
         Me.lblGithubLink.TabIndex = 7
         Me.lblGithubLink.TabStop = True
-        Me.lblGithubLink.Text = "https://github.com/tonywang806/LearingBaseJapanese"
+        Me.lblGithubLink.Text = "https://github.com/tonywang806/LearingBaseJapanese/releases"
         '
         'pnlFavoriteIcon
         '
@@ -223,7 +223,7 @@ Partial Class frmMain
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(16, 321)
+        Me.Label2.Location = New System.Drawing.Point(14, 321)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(40, 12)
         Me.Label2.TabIndex = 10
