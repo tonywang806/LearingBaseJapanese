@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>SimpleJapaneseMemory.My.MyApplication</StartupObject>
     <RootNamespace>SimpleJapaneseMemory</RootNamespace>
-    <AssemblyName>基本な日本語の書き取り</AssemblyName>
+    <AssemblyName>SimpleJapaneseMemory</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>基本な日本語の書き取り.xml</DocumentationFile>
+    <DocumentationFile>SimpleJapaneseMemory.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>基本な日本語の書き取り.xml</DocumentationFile>
+    <DocumentationFile>SimpleJapaneseMemory.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -155,10 +155,10 @@
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
     <None Include="Resources\logo_jp.png" />
-    <Content Include="Resources\wushiyin_bishun.swf">
+    <Content Include="Resources\50Symbols_W.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\wushiyin_fayin.swf">
+    <Content Include="Resources\50Symbols_S.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\eyes.png" />
