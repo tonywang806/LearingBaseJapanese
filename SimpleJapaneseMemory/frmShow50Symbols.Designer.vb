@@ -36,11 +36,14 @@ Partial Class frmShow50Symbols
         '
         Me.btnNext.BackColor = System.Drawing.Color.Transparent
         Me.btnNext.Enabled = False
+        Me.btnNext.FlatAppearance.BorderSize = 0
+        Me.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnNext.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.btnNext.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnNext.Location = New System.Drawing.Point(887, 421)
-        Me.btnNext.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnNext.Location = New System.Drawing.Point(886, 354)
+        Me.btnNext.Margin = New System.Windows.Forms.Padding(4)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(152, 60)
         Me.btnNext.TabIndex = 0
@@ -51,11 +54,14 @@ Partial Class frmShow50Symbols
         '
         Me.btnReStart.BackColor = System.Drawing.Color.Transparent
         Me.btnReStart.Enabled = False
+        Me.btnReStart.FlatAppearance.BorderSize = 0
+        Me.btnReStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnReStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnReStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReStart.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.btnReStart.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnReStart.Location = New System.Drawing.Point(727, 421)
-        Me.btnReStart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnReStart.Location = New System.Drawing.Point(886, 286)
+        Me.btnReStart.Margin = New System.Windows.Forms.Padding(4)
         Me.btnReStart.Name = "btnReStart"
         Me.btnReStart.Size = New System.Drawing.Size(152, 60)
         Me.btnReStart.TabIndex = 2
@@ -106,14 +112,17 @@ Partial Class frmShow50Symbols
         'btnClose
         '
         Me.btnClose.BackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatAppearance.BorderSize = 0
+        Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnClose.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnClose.Location = New System.Drawing.Point(887, 354)
+        Me.btnClose.Location = New System.Drawing.Point(886, 421)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(152, 60)
         Me.btnClose.TabIndex = 7
-        Me.btnClose.Text = "終わり"
+        Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = False
         '
         'frmShow50Symbols
@@ -124,7 +133,7 @@ Partial Class frmShow50Symbols
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmShow50Symbols"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "五十音図"

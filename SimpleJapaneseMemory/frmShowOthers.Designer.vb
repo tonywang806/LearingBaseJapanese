@@ -24,12 +24,12 @@ Partial Class frmShowOthers
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShowOthers))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnClose = New System.Windows.Forms.Button()
         Me.btnShowReadMethod = New System.Windows.Forms.Button()
         Me.btnReStart = New System.Windows.Forms.Button()
         Me.lblReadMethod = New System.Windows.Forms.Label()
         Me.btnNext = New System.Windows.Forms.Button()
         Me.lblDisplayArea = New System.Windows.Forms.Label()
-        Me.btnClose = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -50,15 +50,34 @@ Partial Class frmShowOthers
         Me.Panel1.Size = New System.Drawing.Size(1100, 537)
         Me.Panel1.TabIndex = 0
         '
+        'btnClose
+        '
+        Me.btnClose.BackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatAppearance.BorderSize = 0
+        Me.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClose.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnClose.Location = New System.Drawing.Point(886, 421)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(152, 60)
+        Me.btnClose.TabIndex = 6
+        Me.btnClose.Text = "閉じる"
+        Me.btnClose.UseVisualStyleBackColor = False
+        '
         'btnShowReadMethod
         '
         Me.btnShowReadMethod.BackColor = System.Drawing.Color.Transparent
         Me.btnShowReadMethod.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.eyes_w
         Me.btnShowReadMethod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnShowReadMethod.FlatAppearance.BorderSize = 0
+        Me.btnShowReadMethod.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnShowReadMethod.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnShowReadMethod.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnShowReadMethod.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.btnShowReadMethod.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnShowReadMethod.Location = New System.Drawing.Point(820, 421)
+        Me.btnShowReadMethod.Location = New System.Drawing.Point(519, 339)
         Me.btnShowReadMethod.Name = "btnShowReadMethod"
         Me.btnShowReadMethod.Size = New System.Drawing.Size(60, 60)
         Me.btnShowReadMethod.TabIndex = 5
@@ -68,10 +87,13 @@ Partial Class frmShowOthers
         '
         Me.btnReStart.BackColor = System.Drawing.Color.Transparent
         Me.btnReStart.Enabled = False
+        Me.btnReStart.FlatAppearance.BorderSize = 0
+        Me.btnReStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnReStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnReStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnReStart.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.btnReStart.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnReStart.Location = New System.Drawing.Point(661, 421)
+        Me.btnReStart.Location = New System.Drawing.Point(886, 286)
         Me.btnReStart.Margin = New System.Windows.Forms.Padding(4)
         Me.btnReStart.Name = "btnReStart"
         Me.btnReStart.Size = New System.Drawing.Size(152, 60)
@@ -97,10 +119,13 @@ Partial Class frmShowOthers
         '
         Me.btnNext.BackColor = System.Drawing.Color.Transparent
         Me.btnNext.Enabled = False
+        Me.btnNext.FlatAppearance.BorderSize = 0
+        Me.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OliveDrab
+        Me.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnNext.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.btnNext.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnNext.Location = New System.Drawing.Point(887, 421)
+        Me.btnNext.Location = New System.Drawing.Point(886, 354)
         Me.btnNext.Margin = New System.Windows.Forms.Padding(4)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(152, 60)
@@ -120,19 +145,6 @@ Partial Class frmShowOthers
         Me.lblDisplayArea.TabIndex = 0
         Me.lblDisplayArea.Text = "東西南北"
         Me.lblDisplayArea.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btnClose
-        '
-        Me.btnClose.BackColor = System.Drawing.Color.Transparent
-        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnClose.Location = New System.Drawing.Point(887, 354)
-        Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(152, 60)
-        Me.btnClose.TabIndex = 6
-        Me.btnClose.Text = "終わり"
-        Me.btnClose.UseVisualStyleBackColor = False
         '
         'frmShowOthers
         '
