@@ -155,10 +155,10 @@
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
     <None Include="Resources\logo_jp.png" />
-    <Content Include="Resources\wushiyin_bishun.swf">
+    <Content Include="Resources\50Symbols_W.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\wushiyin_fayin.swf">
+    <Content Include="Resources\50Symbols_S.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\eyes.png" />
