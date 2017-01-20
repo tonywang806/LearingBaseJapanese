@@ -65,4 +65,8 @@
         lblDisplayArea.Text = s1.Substring(ListIndex(iCurrent), 1)
         lblSubDisplayArea.Text = s2.Substring(ListIndex(iCurrent), 1)
     End Sub
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Me.Close()
+    End Sub
 End Class

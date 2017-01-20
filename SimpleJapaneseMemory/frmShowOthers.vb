@@ -176,4 +176,8 @@
     Private Sub btnShowReadMethod_MouseUp(sender As Object, e As MouseEventArgs) Handles btnShowReadMethod.MouseUp
         lblReadMethod.Visible = False
     End Sub
+
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Me.Close()
+    End Sub
 End Class

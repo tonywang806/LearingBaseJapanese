@@ -154,6 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
+    <None Include="Resources\eyes-w.png" />
+    <None Include="Resources\BlackBoard.png" />
     <None Include="Resources\logo_jp.png" />
     <Content Include="Resources\50Symbols_W.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
