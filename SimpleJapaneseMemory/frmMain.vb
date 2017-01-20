@@ -29,4 +29,8 @@ Public Class frmMain
         'ブラウザで開く
         System.Diagnostics.Process.Start(lblGithubLink.Text)
     End Sub
+    Private Sub pnlFavoriteIcon_Click(sender As Object, e As EventArgs) Handles pnlFavoriteIcon.Click
+        Dim frmDisplay As New frmShow50SymbolsAll
+        frmDisplay.ShowDialog()
+    End Sub
 End Class

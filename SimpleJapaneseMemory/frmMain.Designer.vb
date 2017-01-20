@@ -34,7 +34,7 @@ Partial Class frmMain
         Me.rdoFixed = New System.Windows.Forms.RadioButton()
         Me.btnEigth = New System.Windows.Forms.Button()
         Me.btnSeventh = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.pnlFavoriteIcon = New System.Windows.Forms.Panel()
         Me.lblVersion = New System.Windows.Forms.Label()
         Me.btnNinth = New System.Windows.Forms.Button()
         Me.lblGithubLink = New System.Windows.Forms.LinkLabel()
@@ -153,16 +153,16 @@ Partial Class frmMain
         Me.btnSeventh.Text = "方向の書き取り"
         Me.btnSeventh.UseVisualStyleBackColor = True
         '
-        'Panel2
+        'pnlFavoriteIcon
         '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Panel2.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Location = New System.Drawing.Point(12, 12)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(168, 158)
-        Me.Panel2.TabIndex = 2
+        Me.pnlFavoriteIcon.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.pnlFavoriteIcon.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
+        Me.pnlFavoriteIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pnlFavoriteIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlFavoriteIcon.Location = New System.Drawing.Point(12, 12)
+        Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
+        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(168, 158)
+        Me.pnlFavoriteIcon.TabIndex = 2
         '
         'lblVersion
         '
@@ -206,7 +206,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnNinth)
         Me.Controls.Add(Me.btnEigth)
         Me.Controls.Add(Me.btnSeventh)
-        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.pnlFavoriteIcon)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnSixth)
         Me.Controls.Add(Me.btnFifth)
@@ -235,7 +235,7 @@ Partial Class frmMain
     Friend WithEvents Panel1 As Panel
     Friend WithEvents rdoRandom As RadioButton
     Friend WithEvents rdoFixed As RadioButton
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents pnlFavoriteIcon As Panel
     Friend WithEvents btnEigth As Button
     Friend WithEvents btnSeventh As Button
     Friend WithEvents lblVersion As Label
