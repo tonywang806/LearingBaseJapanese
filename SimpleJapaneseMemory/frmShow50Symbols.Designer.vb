@@ -23,130 +23,120 @@ Partial Class frmShow50Symbols
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShow50Symbols))
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.lblDisplayArea = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.lblSubDisplayArea = New System.Windows.Forms.Label()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnReStart = New System.Windows.Forms.Button()
-        Me.TableLayoutPanel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        Me.lblDisplayArea = New System.Windows.Forms.Label()
+        Me.lblSubDisplayArea = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TableLayoutPanel1
+        'btnNext
         '
-        Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.lblDisplayArea, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label2, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.lblSubDisplayArea, 1, 1)
-        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(480, 283)
-        Me.TableLayoutPanel1.TabIndex = 0
+        Me.btnNext.BackColor = System.Drawing.Color.Transparent
+        Me.btnNext.Enabled = False
+        Me.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnNext.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnNext.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnNext.Location = New System.Drawing.Point(887, 421)
+        Me.btnNext.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(152, 60)
+        Me.btnNext.TabIndex = 0
+        Me.btnNext.Text = "次へ"
+        Me.btnNext.UseVisualStyleBackColor = False
+        '
+        'btnReStart
+        '
+        Me.btnReStart.BackColor = System.Drawing.Color.Transparent
+        Me.btnReStart.Enabled = False
+        Me.btnReStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReStart.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnReStart.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnReStart.Location = New System.Drawing.Point(727, 421)
+        Me.btnReStart.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnReStart.Name = "btnReStart"
+        Me.btnReStart.Size = New System.Drawing.Size(152, 60)
+        Me.btnReStart.TabIndex = 2
+        Me.btnReStart.Text = "もう一度"
+        Me.btnReStart.UseVisualStyleBackColor = False
         '
         'lblDisplayArea
         '
-        Me.lblDisplayArea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblDisplayArea.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.lblDisplayArea.Font = New System.Drawing.Font("MS UI Gothic", 80.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblDisplayArea.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.lblDisplayArea.Location = New System.Drawing.Point(3, 20)
+        Me.lblDisplayArea.BackColor = System.Drawing.Color.Transparent
+        Me.lblDisplayArea.Font = New System.Drawing.Font("MS UI Gothic", 150.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblDisplayArea.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.lblDisplayArea.Location = New System.Drawing.Point(354, 65)
+        Me.lblDisplayArea.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDisplayArea.Name = "lblDisplayArea"
-        Me.lblDisplayArea.Size = New System.Drawing.Size(234, 263)
+        Me.lblDisplayArea.Size = New System.Drawing.Size(359, 329)
         Me.lblDisplayArea.TabIndex = 1
         Me.lblDisplayArea.Text = "あ"
         Me.lblDisplayArea.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label1
-        '
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(100, 20)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "ひらかな"
-        '
-        'Label2
-        '
-        Me.Label2.Location = New System.Drawing.Point(243, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 20)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "カタカナ"
-        '
         'lblSubDisplayArea
         '
-        Me.lblSubDisplayArea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblSubDisplayArea.BackColor = System.Drawing.Color.Transparent
         Me.lblSubDisplayArea.Font = New System.Drawing.Font("MS UI Gothic", 80.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblSubDisplayArea.ForeColor = System.Drawing.Color.Orange
-        Me.lblSubDisplayArea.Location = New System.Drawing.Point(243, 20)
+        Me.lblSubDisplayArea.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.lblSubDisplayArea.Location = New System.Drawing.Point(734, 205)
+        Me.lblSubDisplayArea.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSubDisplayArea.Name = "lblSubDisplayArea"
-        Me.lblSubDisplayArea.Size = New System.Drawing.Size(234, 263)
+        Me.lblSubDisplayArea.Size = New System.Drawing.Size(127, 133)
         Me.lblSubDisplayArea.TabIndex = 2
         Me.lblSubDisplayArea.Text = "ア"
         Me.lblSubDisplayArea.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'btnNext
+        'Panel1
         '
-        Me.btnNext.Enabled = False
-        Me.btnNext.Location = New System.Drawing.Point(378, 301)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(114, 34)
-        Me.btnNext.TabIndex = 0
-        Me.btnNext.Text = "次へ"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.Panel1.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.BlackBoard
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel1.Controls.Add(Me.btnClose)
+        Me.Panel1.Controls.Add(Me.lblSubDisplayArea)
+        Me.Panel1.Controls.Add(Me.btnReStart)
+        Me.Panel1.Controls.Add(Me.lblDisplayArea)
+        Me.Panel1.Controls.Add(Me.btnNext)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1100, 537)
+        Me.Panel1.TabIndex = 3
         '
-        'Panel2
+        'btnClose
         '
-        Me.Panel2.Controls.Add(Me.TableLayoutPanel1)
-        Me.Panel2.Location = New System.Drawing.Point(12, 12)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(480, 283)
-        Me.Panel2.TabIndex = 1
-        '
-        'btnReStart
-        '
-        Me.btnReStart.Enabled = False
-        Me.btnReStart.Location = New System.Drawing.Point(12, 301)
-        Me.btnReStart.Name = "btnReStart"
-        Me.btnReStart.Size = New System.Drawing.Size(114, 34)
-        Me.btnReStart.TabIndex = 2
-        Me.btnReStart.Text = "もう一度"
-        Me.btnReStart.UseVisualStyleBackColor = True
+        Me.btnClose.BackColor = System.Drawing.Color.Transparent
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClose.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnClose.Location = New System.Drawing.Point(887, 354)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(152, 60)
+        Me.btnClose.TabIndex = 7
+        Me.btnClose.Text = "終わり"
+        Me.btnClose.UseVisualStyleBackColor = False
         '
         'frmShow50Symbols
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(504, 344)
-        Me.Controls.Add(Me.btnReStart)
-        Me.Controls.Add(Me.btnNext)
-        Me.Controls.Add(Me.Panel2)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.ClientSize = New System.Drawing.Size(1100, 537)
+        Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmShow50Symbols"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "五十音図の書き取り"
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
+        Me.Text = "五十音図"
+        Me.TransparencyKey = System.Drawing.SystemColors.Control
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents btnNext As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents lblDisplayArea As Label
     Friend WithEvents lblSubDisplayArea As Label
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents btnReStart As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents btnClose As Button
 End Class

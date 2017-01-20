@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("SimpleJapaneseMemory")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("海天志遠")>
-<Assembly: AssemblyProduct("基本な日本語の書き取り")>
+<Assembly: AssemblyProduct("基本日本語")>
 <Assembly: AssemblyCopyright("Copyright © 海天志遠@王天艺 2017")>
 <Assembly: AssemblyTrademark("")>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 既定値にすることができます:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.5.0")>
-<Assembly: AssemblyFileVersion("1.0.5.0")>
+<Assembly: AssemblyVersion("1.0.6.0")>
+<Assembly: AssemblyFileVersion("1.0.6.0")>
