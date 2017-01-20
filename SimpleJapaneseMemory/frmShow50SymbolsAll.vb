@@ -8,4 +8,8 @@
         Me.asfPlaySound.LoadMovie(0, pathStr_Sound)
         Me.asfWriteOrder.LoadMovie(0, pathStr_Write)
     End Sub
+
+    Private Sub btnFormClose_Click(sender As Object, e As EventArgs) Handles btnFormClose.Click
+        Me.Close()
+    End Sub
 End Class

@@ -25,19 +25,20 @@ Partial Class frmShow50SymbolsAll
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShow50SymbolsAll))
         Me.tbl50List = New System.Windows.Forms.TabControl()
         Me.tpSound = New System.Windows.Forms.TabPage()
-        Me.tpWrite = New System.Windows.Forms.TabPage()
         Me.asfPlaySound = New AxShockwaveFlashObjects.AxShockwaveFlash()
+        Me.tpWrite = New System.Windows.Forms.TabPage()
+        Me.asfWriteOrder = New AxShockwaveFlashObjects.AxShockwaveFlash()
         Me.lblReferenceUrlTitle = New System.Windows.Forms.Label()
         Me.lblReferenceUrl = New System.Windows.Forms.LinkLabel()
         Me.lblFlashProviderTitle = New System.Windows.Forms.Label()
-        Me.asfWriteOrder = New AxShockwaveFlashObjects.AxShockwaveFlash()
         Me.pnlProviderLogo = New System.Windows.Forms.Panel()
         Me.tblPanel = New System.Windows.Forms.TableLayoutPanel()
         Me.pnlUrlLink = New System.Windows.Forms.Panel()
+        Me.btnFormClose = New System.Windows.Forms.Button()
         Me.tbl50List.SuspendLayout()
         Me.tpSound.SuspendLayout()
-        Me.tpWrite.SuspendLayout()
         CType(Me.asfPlaySound, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tpWrite.SuspendLayout()
         CType(Me.asfWriteOrder, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tblPanel.SuspendLayout()
         Me.pnlUrlLink.SuspendLayout()
@@ -67,6 +68,16 @@ Partial Class frmShow50SymbolsAll
         Me.tpSound.Text = "発音"
         Me.tpSound.UseVisualStyleBackColor = True
         '
+        'asfPlaySound
+        '
+        Me.asfPlaySound.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.asfPlaySound.Enabled = True
+        Me.asfPlaySound.Location = New System.Drawing.Point(3, 3)
+        Me.asfPlaySound.Name = "asfPlaySound"
+        Me.asfPlaySound.OcxState = CType(resources.GetObject("asfPlaySound.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.asfPlaySound.Size = New System.Drawing.Size(818, 615)
+        Me.asfPlaySound.TabIndex = 0
+        '
         'tpWrite
         '
         Me.tpWrite.Controls.Add(Me.asfWriteOrder)
@@ -78,15 +89,15 @@ Partial Class frmShow50SymbolsAll
         Me.tpWrite.Text = "書き方"
         Me.tpWrite.UseVisualStyleBackColor = True
         '
-        'asfPlaySound
+        'asfWriteOrder
         '
-        Me.asfPlaySound.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.asfPlaySound.Enabled = True
-        Me.asfPlaySound.Location = New System.Drawing.Point(3, 3)
-        Me.asfPlaySound.Name = "asfPlaySound"
-        Me.asfPlaySound.OcxState = CType(resources.GetObject("asfPlaySound.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.asfPlaySound.Size = New System.Drawing.Size(818, 615)
-        Me.asfPlaySound.TabIndex = 0
+        Me.asfWriteOrder.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.asfWriteOrder.Enabled = True
+        Me.asfWriteOrder.Location = New System.Drawing.Point(3, 3)
+        Me.asfWriteOrder.Name = "asfWriteOrder"
+        Me.asfWriteOrder.OcxState = CType(resources.GetObject("asfWriteOrder.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.asfWriteOrder.Size = New System.Drawing.Size(818, 615)
+        Me.asfWriteOrder.TabIndex = 0
         '
         'lblReferenceUrlTitle
         '
@@ -116,16 +127,6 @@ Partial Class frmShow50SymbolsAll
         Me.lblFlashProviderTitle.TabIndex = 1
         Me.lblFlashProviderTitle.Text = "flash版权方："
         '
-        'asfWriteOrder
-        '
-        Me.asfWriteOrder.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.asfWriteOrder.Enabled = True
-        Me.asfWriteOrder.Location = New System.Drawing.Point(3, 3)
-        Me.asfWriteOrder.Name = "asfWriteOrder"
-        Me.asfWriteOrder.OcxState = CType(resources.GetObject("asfWriteOrder.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.asfWriteOrder.Size = New System.Drawing.Size(818, 615)
-        Me.asfWriteOrder.TabIndex = 0
-        '
         'pnlProviderLogo
         '
         Me.pnlProviderLogo.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.logo_jp
@@ -152,6 +153,7 @@ Partial Class frmShow50SymbolsAll
         '
         'pnlUrlLink
         '
+        Me.pnlUrlLink.Controls.Add(Me.btnFormClose)
         Me.pnlUrlLink.Controls.Add(Me.lblReferenceUrl)
         Me.pnlUrlLink.Controls.Add(Me.pnlProviderLogo)
         Me.pnlUrlLink.Controls.Add(Me.lblReferenceUrlTitle)
@@ -162,6 +164,20 @@ Partial Class frmShow50SymbolsAll
         Me.pnlUrlLink.Size = New System.Drawing.Size(832, 54)
         Me.pnlUrlLink.TabIndex = 1
         '
+        'btnFormClose
+        '
+        Me.btnFormClose.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnFormClose.BackColor = System.Drawing.Color.DarkRed
+        Me.btnFormClose.Font = New System.Drawing.Font("MS UI Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.btnFormClose.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnFormClose.Location = New System.Drawing.Point(727, 6)
+        Me.btnFormClose.Name = "btnFormClose"
+        Me.btnFormClose.Size = New System.Drawing.Size(96, 42)
+        Me.btnFormClose.TabIndex = 4
+        Me.btnFormClose.Text = "Close"
+        Me.btnFormClose.UseVisualStyleBackColor = False
+        '
         'frmShow50SymbolsAll
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -170,13 +186,14 @@ Partial Class frmShow50SymbolsAll
         Me.Controls.Add(Me.tblPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MinimumSize = New System.Drawing.Size(854, 751)
         Me.Name = "frmShow50SymbolsAll"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "五十音図一覧"
         Me.tbl50List.ResumeLayout(False)
         Me.tpSound.ResumeLayout(False)
-        Me.tpWrite.ResumeLayout(False)
         CType(Me.asfPlaySound, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tpWrite.ResumeLayout(False)
         CType(Me.asfWriteOrder, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tblPanel.ResumeLayout(False)
         Me.pnlUrlLink.ResumeLayout(False)
@@ -196,4 +213,5 @@ Partial Class frmShow50SymbolsAll
     Friend WithEvents pnlProviderLogo As Panel
     Friend WithEvents tblPanel As TableLayoutPanel
     Friend WithEvents pnlUrlLink As Panel
+    Friend WithEvents btnFormClose As Button
 End Class
