@@ -49,66 +49,66 @@ Partial Class frmMain
         '
         Me.btnFirst.Location = New System.Drawing.Point(12, 185)
         Me.btnFirst.Name = "btnFirst"
-        Me.btnFirst.Size = New System.Drawing.Size(154, 35)
+        Me.btnFirst.Size = New System.Drawing.Size(93, 35)
         Me.btnFirst.TabIndex = 0
-        Me.btnFirst.Text = "五十音図の書き取り"
+        Me.btnFirst.Text = "五十音図"
         Me.btnFirst.UseVisualStyleBackColor = True
         '
         'btnSecond
         '
-        Me.btnSecond.Location = New System.Drawing.Point(291, 53)
+        Me.btnSecond.Location = New System.Drawing.Point(268, 226)
         Me.btnSecond.Name = "btnSecond"
-        Me.btnSecond.Size = New System.Drawing.Size(204, 35)
+        Me.btnSecond.Size = New System.Drawing.Size(93, 35)
         Me.btnSecond.TabIndex = 0
         Me.btnSecond.Tag = "Date"
-        Me.btnSecond.Text = "日付の書き取り"
+        Me.btnSecond.Text = "日付"
         Me.btnSecond.UseVisualStyleBackColor = True
         '
         'btnThird
         '
-        Me.btnThird.Location = New System.Drawing.Point(291, 137)
+        Me.btnThird.Location = New System.Drawing.Point(139, 185)
         Me.btnThird.Name = "btnThird"
-        Me.btnThird.Size = New System.Drawing.Size(204, 33)
+        Me.btnThird.Size = New System.Drawing.Size(93, 35)
         Me.btnThird.TabIndex = 0
         Me.btnThird.Tag = "Numberic"
-        Me.btnThird.Text = "数値の書き取り"
+        Me.btnThird.Text = "数値"
         Me.btnThird.UseVisualStyleBackColor = True
         '
         'btnSixth
         '
-        Me.btnSixth.Location = New System.Drawing.Point(184, 185)
+        Me.btnSixth.Location = New System.Drawing.Point(139, 267)
         Me.btnSixth.Name = "btnSixth"
-        Me.btnSixth.Size = New System.Drawing.Size(91, 35)
+        Me.btnSixth.Size = New System.Drawing.Size(93, 35)
         Me.btnSixth.TabIndex = 0
         Me.btnSixth.Tag = "Place"
-        Me.btnSixth.Text = "地名の書き取り"
+        Me.btnSixth.Text = "地名"
         Me.btnSixth.UseVisualStyleBackColor = True
         '
         'btnForth
         '
-        Me.btnForth.Location = New System.Drawing.Point(291, 96)
+        Me.btnForth.Location = New System.Drawing.Point(268, 267)
         Me.btnForth.Name = "btnForth"
-        Me.btnForth.Size = New System.Drawing.Size(204, 33)
+        Me.btnForth.Size = New System.Drawing.Size(93, 35)
         Me.btnForth.TabIndex = 0
         Me.btnForth.Tag = "Weeks"
-        Me.btnForth.Text = "曜日の書き取り"
+        Me.btnForth.Text = "曜日"
         Me.btnForth.UseVisualStyleBackColor = True
         '
         'btnFifth
         '
-        Me.btnFifth.Location = New System.Drawing.Point(291, 12)
+        Me.btnFifth.Location = New System.Drawing.Point(268, 185)
         Me.btnFifth.Name = "btnFifth"
-        Me.btnFifth.Size = New System.Drawing.Size(204, 33)
+        Me.btnFifth.Size = New System.Drawing.Size(93, 35)
         Me.btnFifth.TabIndex = 0
         Me.btnFifth.Tag = "Month"
-        Me.btnFifth.Text = "月の書き取り"
+        Me.btnFifth.Text = "月"
         Me.btnFifth.UseVisualStyleBackColor = True
         '
         'rdoRandom
         '
         Me.rdoRandom.AutoSize = True
         Me.rdoRandom.Checked = True
-        Me.rdoRandom.Location = New System.Drawing.Point(106, 21)
+        Me.rdoRandom.Location = New System.Drawing.Point(11, 47)
         Me.rdoRandom.Name = "rdoRandom"
         Me.rdoRandom.Size = New System.Drawing.Size(59, 16)
         Me.rdoRandom.TabIndex = 0
@@ -128,12 +128,12 @@ Partial Class frmMain
         '
         'btnEigth
         '
-        Me.btnEigth.Location = New System.Drawing.Point(125, 226)
+        Me.btnEigth.Location = New System.Drawing.Point(139, 226)
         Me.btnEigth.Name = "btnEigth"
-        Me.btnEigth.Size = New System.Drawing.Size(150, 35)
+        Me.btnEigth.Size = New System.Drawing.Size(93, 35)
         Me.btnEigth.TabIndex = 3
         Me.btnEigth.Tag = "Orientation"
-        Me.btnEigth.Text = "方位の書き取り"
+        Me.btnEigth.Text = "方位"
         Me.btnEigth.UseVisualStyleBackColor = True
         '
         'btnSeventh
@@ -143,13 +143,13 @@ Partial Class frmMain
         Me.btnSeventh.Size = New System.Drawing.Size(93, 35)
         Me.btnSeventh.TabIndex = 4
         Me.btnSeventh.Tag = "Direction"
-        Me.btnSeventh.Text = "方向の書き取り"
+        Me.btnSeventh.Text = "方向"
         Me.btnSeventh.UseVisualStyleBackColor = True
         '
         'lblVersion
         '
         Me.lblVersion.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblVersion.Location = New System.Drawing.Point(395, 316)
+        Me.lblVersion.Location = New System.Drawing.Point(258, 4)
         Me.lblVersion.Name = "lblVersion"
         Me.lblVersion.Size = New System.Drawing.Size(100, 23)
         Me.lblVersion.TabIndex = 5
@@ -160,17 +160,17 @@ Partial Class frmMain
         '
         Me.btnNinth.Location = New System.Drawing.Point(12, 267)
         Me.btnNinth.Name = "btnNinth"
-        Me.btnNinth.Size = New System.Drawing.Size(263, 35)
+        Me.btnNinth.Size = New System.Drawing.Size(93, 35)
         Me.btnNinth.TabIndex = 3
         Me.btnNinth.Tag = "Color"
-        Me.btnNinth.Text = "色の書き取り"
+        Me.btnNinth.Text = "色"
         Me.btnNinth.UseVisualStyleBackColor = True
         '
         'lblGithubLink
         '
         Me.lblGithubLink.AutoSize = True
         Me.lblGithubLink.LinkVisited = True
-        Me.lblGithubLink.Location = New System.Drawing.Point(53, 321)
+        Me.lblGithubLink.Location = New System.Drawing.Point(14, 333)
         Me.lblGithubLink.Name = "lblGithubLink"
         Me.lblGithubLink.Size = New System.Drawing.Size(338, 12)
         Me.lblGithubLink.TabIndex = 7
@@ -186,7 +186,7 @@ Partial Class frmMain
         Me.pnlFavoriteIcon.Controls.Add(Me.Label1)
         Me.pnlFavoriteIcon.Location = New System.Drawing.Point(12, 12)
         Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
-        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(263, 158)
+        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(220, 158)
         Me.pnlFavoriteIcon.TabIndex = 2
         '
         'Label1
@@ -194,28 +194,28 @@ Partial Class frmMain
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Red
-        Me.Label1.Location = New System.Drawing.Point(4, 141)
+        Me.Label1.Location = New System.Drawing.Point(3, 2)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 12)
+        Me.Label1.Size = New System.Drawing.Size(58, 12)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "点我有惊喜！"
+        Me.Label1.Text = "Click me"
         '
         'grpDisplayOrderSetting
         '
         Me.grpDisplayOrderSetting.Controls.Add(Me.rdoRandom)
         Me.grpDisplayOrderSetting.Controls.Add(Me.rdoFixed)
-        Me.grpDisplayOrderSetting.Location = New System.Drawing.Point(291, 185)
+        Me.grpDisplayOrderSetting.Location = New System.Drawing.Point(238, 44)
         Me.grpDisplayOrderSetting.Name = "grpDisplayOrderSetting"
-        Me.grpDisplayOrderSetting.Size = New System.Drawing.Size(204, 51)
+        Me.grpDisplayOrderSetting.Size = New System.Drawing.Size(123, 72)
         Me.grpDisplayOrderSetting.TabIndex = 8
         Me.grpDisplayOrderSetting.TabStop = False
         Me.grpDisplayOrderSetting.Text = "表示順位"
         '
         'GroupBox1
         '
-        Me.GroupBox1.Location = New System.Drawing.Point(291, 254)
+        Me.GroupBox1.Location = New System.Drawing.Point(238, 122)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(204, 48)
+        Me.GroupBox1.Size = New System.Drawing.Size(123, 48)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "モード"
@@ -223,7 +223,7 @@ Partial Class frmMain
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(14, 321)
+        Me.Label2.Location = New System.Drawing.Point(14, 318)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(40, 12)
         Me.Label2.TabIndex = 10
@@ -234,7 +234,7 @@ Partial Class frmMain
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(509, 342)
+        Me.ClientSize = New System.Drawing.Size(374, 357)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.grpDisplayOrderSetting)
@@ -254,7 +254,7 @@ Partial Class frmMain
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMain"
-        Me.Text = "基本の日本語を書き取り"
+        Me.Text = "基本日本語"
         Me.pnlFavoriteIcon.ResumeLayout(False)
         Me.pnlFavoriteIcon.PerformLayout()
         Me.grpDisplayOrderSetting.ResumeLayout(False)
