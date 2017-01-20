@@ -54,7 +54,7 @@ Partial Class frmShow50SymbolsAll
         Me.tbl50List.Location = New System.Drawing.Point(3, 3)
         Me.tbl50List.Name = "tbl50List"
         Me.tbl50List.SelectedIndex = 0
-        Me.tbl50List.Size = New System.Drawing.Size(832, 647)
+        Me.tbl50List.Size = New System.Drawing.Size(832, 606)
         Me.tbl50List.TabIndex = 0
         '
         'tpSound
@@ -63,7 +63,7 @@ Partial Class frmShow50SymbolsAll
         Me.tpSound.Location = New System.Drawing.Point(4, 22)
         Me.tpSound.Name = "tpSound"
         Me.tpSound.Padding = New System.Windows.Forms.Padding(3)
-        Me.tpSound.Size = New System.Drawing.Size(824, 621)
+        Me.tpSound.Size = New System.Drawing.Size(824, 580)
         Me.tpSound.TabIndex = 0
         Me.tpSound.Text = "発音"
         Me.tpSound.UseVisualStyleBackColor = True
@@ -75,7 +75,7 @@ Partial Class frmShow50SymbolsAll
         Me.asfPlaySound.Location = New System.Drawing.Point(3, 3)
         Me.asfPlaySound.Name = "asfPlaySound"
         Me.asfPlaySound.OcxState = CType(resources.GetObject("asfPlaySound.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.asfPlaySound.Size = New System.Drawing.Size(818, 615)
+        Me.asfPlaySound.Size = New System.Drawing.Size(818, 574)
         Me.asfPlaySound.TabIndex = 0
         '
         'tpWrite
@@ -149,7 +149,7 @@ Partial Class frmShow50SymbolsAll
         Me.tblPanel.RowCount = 2
         Me.tblPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.tblPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60.0!))
-        Me.tblPanel.Size = New System.Drawing.Size(838, 713)
+        Me.tblPanel.Size = New System.Drawing.Size(838, 672)
         Me.tblPanel.TabIndex = 4
         '
         'pnlUrlLink
@@ -160,7 +160,7 @@ Partial Class frmShow50SymbolsAll
         Me.pnlUrlLink.Controls.Add(Me.lblReferenceUrlTitle)
         Me.pnlUrlLink.Controls.Add(Me.lblFlashProviderTitle)
         Me.pnlUrlLink.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlUrlLink.Location = New System.Drawing.Point(3, 656)
+        Me.pnlUrlLink.Location = New System.Drawing.Point(3, 615)
         Me.pnlUrlLink.Name = "pnlUrlLink"
         Me.pnlUrlLink.Size = New System.Drawing.Size(832, 54)
         Me.pnlUrlLink.TabIndex = 1
@@ -183,11 +183,11 @@ Partial Class frmShow50SymbolsAll
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(838, 713)
+        Me.ClientSize = New System.Drawing.Size(838, 672)
         Me.Controls.Add(Me.tblPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MinimumSize = New System.Drawing.Size(854, 751)
+        Me.MinimumSize = New System.Drawing.Size(854, 710)
         Me.Name = "frmShow50SymbolsAll"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "五十音図一覧"
