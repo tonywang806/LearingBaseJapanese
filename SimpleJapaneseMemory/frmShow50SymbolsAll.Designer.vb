@@ -135,6 +135,7 @@ Partial Class frmShow50SymbolsAll
         Me.pnlProviderLogo.Name = "pnlProviderLogo"
         Me.pnlProviderLogo.Size = New System.Drawing.Size(101, 24)
         Me.pnlProviderLogo.TabIndex = 3
+        Me.pnlProviderLogo.Tag = "http://jp.hjenglish.com/"
         '
         'tblPanel
         '

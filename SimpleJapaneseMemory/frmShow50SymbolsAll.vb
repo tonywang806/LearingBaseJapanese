@@ -12,4 +12,13 @@
     Private Sub btnFormClose_Click(sender As Object, e As EventArgs) Handles btnFormClose.Click
         Me.Close()
     End Sub
+
+    Private Sub pnlProviderLogo_Click(sender As Object, e As EventArgs) Handles pnlProviderLogo.Click
+        System.Diagnostics.Process.Start(pnlProviderLogo.Tag)
+    End Sub
+    Private Sub lblReferenceUrl_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lblReferenceUrl.LinkClicked
+        lblReferenceUrl.LinkVisited = True
+        'ブラウザで開く
+        System.Diagnostics.Process.Start(lblReferenceUrl.Text)
+    End Sub
 End Class
