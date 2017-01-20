@@ -29,16 +29,20 @@ Partial Class frmMain
         Me.btnSixth = New System.Windows.Forms.Button()
         Me.btnForth = New System.Windows.Forms.Button()
         Me.btnFifth = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.rdoRandom = New System.Windows.Forms.RadioButton()
         Me.rdoFixed = New System.Windows.Forms.RadioButton()
         Me.btnEigth = New System.Windows.Forms.Button()
         Me.btnSeventh = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.lblVersion = New System.Windows.Forms.Label()
         Me.btnNinth = New System.Windows.Forms.Button()
         Me.lblGithubLink = New System.Windows.Forms.LinkLabel()
-        Me.Panel1.SuspendLayout()
+        Me.pnlFavoriteIcon = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.grpDisplayOrderSetting = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.pnlFavoriteIcon.SuspendLayout()
+        Me.grpDisplayOrderSetting.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnFirst
@@ -52,7 +56,7 @@ Partial Class frmMain
         '
         'btnSecond
         '
-        Me.btnSecond.Location = New System.Drawing.Point(202, 53)
+        Me.btnSecond.Location = New System.Drawing.Point(291, 53)
         Me.btnSecond.Name = "btnSecond"
         Me.btnSecond.Size = New System.Drawing.Size(204, 35)
         Me.btnSecond.TabIndex = 0
@@ -62,7 +66,7 @@ Partial Class frmMain
         '
         'btnThird
         '
-        Me.btnThird.Location = New System.Drawing.Point(202, 137)
+        Me.btnThird.Location = New System.Drawing.Point(291, 137)
         Me.btnThird.Name = "btnThird"
         Me.btnThird.Size = New System.Drawing.Size(204, 33)
         Me.btnThird.TabIndex = 0
@@ -82,7 +86,7 @@ Partial Class frmMain
         '
         'btnForth
         '
-        Me.btnForth.Location = New System.Drawing.Point(202, 96)
+        Me.btnForth.Location = New System.Drawing.Point(291, 96)
         Me.btnForth.Name = "btnForth"
         Me.btnForth.Size = New System.Drawing.Size(204, 33)
         Me.btnForth.TabIndex = 0
@@ -92,7 +96,7 @@ Partial Class frmMain
         '
         'btnFifth
         '
-        Me.btnFifth.Location = New System.Drawing.Point(202, 12)
+        Me.btnFifth.Location = New System.Drawing.Point(291, 12)
         Me.btnFifth.Name = "btnFifth"
         Me.btnFifth.Size = New System.Drawing.Size(204, 33)
         Me.btnFifth.TabIndex = 0
@@ -100,22 +104,11 @@ Partial Class frmMain
         Me.btnFifth.Text = "月の書き取り"
         Me.btnFifth.UseVisualStyleBackColor = True
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.rdoRandom)
-        Me.Panel1.Controls.Add(Me.rdoFixed)
-        Me.Panel1.Location = New System.Drawing.Point(310, 185)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(96, 117)
-        Me.Panel1.TabIndex = 1
-        '
         'rdoRandom
         '
         Me.rdoRandom.AutoSize = True
         Me.rdoRandom.Checked = True
-        Me.rdoRandom.Location = New System.Drawing.Point(10, 40)
+        Me.rdoRandom.Location = New System.Drawing.Point(106, 21)
         Me.rdoRandom.Name = "rdoRandom"
         Me.rdoRandom.Size = New System.Drawing.Size(59, 16)
         Me.rdoRandom.TabIndex = 0
@@ -126,7 +119,7 @@ Partial Class frmMain
         'rdoFixed
         '
         Me.rdoFixed.AutoSize = True
-        Me.rdoFixed.Location = New System.Drawing.Point(10, 17)
+        Me.rdoFixed.Location = New System.Drawing.Point(11, 21)
         Me.rdoFixed.Name = "rdoFixed"
         Me.rdoFixed.Size = New System.Drawing.Size(63, 16)
         Me.rdoFixed.TabIndex = 0
@@ -153,21 +146,10 @@ Partial Class frmMain
         Me.btnSeventh.Text = "方向の書き取り"
         Me.btnSeventh.UseVisualStyleBackColor = True
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Panel2.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Location = New System.Drawing.Point(12, 12)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(168, 158)
-        Me.Panel2.TabIndex = 2
-        '
         'lblVersion
         '
         Me.lblVersion.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblVersion.Location = New System.Drawing.Point(306, 315)
+        Me.lblVersion.Location = New System.Drawing.Point(395, 316)
         Me.lblVersion.Name = "lblVersion"
         Me.lblVersion.Size = New System.Drawing.Size(100, 23)
         Me.lblVersion.TabIndex = 5
@@ -188,26 +170,80 @@ Partial Class frmMain
         '
         Me.lblGithubLink.AutoSize = True
         Me.lblGithubLink.LinkVisited = True
-        Me.lblGithubLink.Location = New System.Drawing.Point(12, 320)
+        Me.lblGithubLink.Location = New System.Drawing.Point(58, 321)
         Me.lblGithubLink.Name = "lblGithubLink"
-        Me.lblGithubLink.Size = New System.Drawing.Size(252, 12)
+        Me.lblGithubLink.Size = New System.Drawing.Size(289, 12)
         Me.lblGithubLink.TabIndex = 7
         Me.lblGithubLink.TabStop = True
-        Me.lblGithubLink.Text = "https://github.com/tonywang806/BaseJapanese"
+        Me.lblGithubLink.Text = "https://github.com/tonywang806/LearingBaseJapanese"
+        '
+        'pnlFavoriteIcon
+        '
+        Me.pnlFavoriteIcon.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.pnlFavoriteIcon.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
+        Me.pnlFavoriteIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pnlFavoriteIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlFavoriteIcon.Controls.Add(Me.Label1)
+        Me.pnlFavoriteIcon.Location = New System.Drawing.Point(12, 12)
+        Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
+        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(263, 158)
+        Me.pnlFavoriteIcon.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(4, 141)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(83, 12)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "点我有惊喜！"
+        '
+        'grpDisplayOrderSetting
+        '
+        Me.grpDisplayOrderSetting.Controls.Add(Me.rdoRandom)
+        Me.grpDisplayOrderSetting.Controls.Add(Me.rdoFixed)
+        Me.grpDisplayOrderSetting.Location = New System.Drawing.Point(291, 185)
+        Me.grpDisplayOrderSetting.Name = "grpDisplayOrderSetting"
+        Me.grpDisplayOrderSetting.Size = New System.Drawing.Size(204, 51)
+        Me.grpDisplayOrderSetting.TabIndex = 8
+        Me.grpDisplayOrderSetting.TabStop = False
+        Me.grpDisplayOrderSetting.Text = "表示順位"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Location = New System.Drawing.Point(291, 254)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(204, 48)
+        Me.GroupBox1.TabIndex = 9
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "モード"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(16, 321)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(40, 12)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Github:"
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(420, 342)
+        Me.ClientSize = New System.Drawing.Size(509, 342)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.grpDisplayOrderSetting)
         Me.Controls.Add(Me.lblGithubLink)
         Me.Controls.Add(Me.lblVersion)
         Me.Controls.Add(Me.btnNinth)
         Me.Controls.Add(Me.btnEigth)
         Me.Controls.Add(Me.btnSeventh)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.pnlFavoriteIcon)
         Me.Controls.Add(Me.btnSixth)
         Me.Controls.Add(Me.btnFifth)
         Me.Controls.Add(Me.btnThird)
@@ -219,8 +255,10 @@ Partial Class frmMain
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMain"
         Me.Text = "基本の日本語を書き取り"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.pnlFavoriteIcon.ResumeLayout(False)
+        Me.pnlFavoriteIcon.PerformLayout()
+        Me.grpDisplayOrderSetting.ResumeLayout(False)
+        Me.grpDisplayOrderSetting.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -232,13 +270,16 @@ Partial Class frmMain
     Friend WithEvents btnSixth As Button
     Friend WithEvents btnForth As Button
     Friend WithEvents btnFifth As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents rdoRandom As RadioButton
     Friend WithEvents rdoFixed As RadioButton
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents pnlFavoriteIcon As Panel
     Friend WithEvents btnEigth As Button
     Friend WithEvents btnSeventh As Button
     Friend WithEvents lblVersion As Label
     Friend WithEvents btnNinth As Button
     Friend WithEvents lblGithubLink As LinkLabel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents grpDisplayOrderSetting As GroupBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label2 As Label
 End Class

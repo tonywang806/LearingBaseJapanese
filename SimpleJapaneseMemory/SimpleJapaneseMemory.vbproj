@@ -91,6 +91,12 @@
     <Compile Include="frmShow50Symbols.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmShow50SymbolsAll.Designer.vb">
+      <DependentUpon>frmShow50SymbolsAll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShow50SymbolsAll.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmShowOthers.Designer.vb">
       <DependentUpon>frmShowOthers.vb</DependentUpon>
     </Compile>
@@ -120,6 +126,9 @@
     <EmbeddedResource Include="frmShow50Symbols.resx">
       <DependentUpon>frmShow50Symbols.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShow50SymbolsAll.resx">
+      <DependentUpon>frmShow50SymbolsAll.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmShowOthers.resx">
       <DependentUpon>frmShowOthers.vb</DependentUpon>
     </EmbeddedResource>
@@ -145,10 +154,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
+    <None Include="Resources\logo_jp.png" />
+    <Content Include="Resources\wushiyin_bishun.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\wushiyin_fayin.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\eyes.png" />
     <None Include="Resources\黄道十二宫.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
