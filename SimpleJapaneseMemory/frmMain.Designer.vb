@@ -172,10 +172,10 @@ Partial Class frmMain
         Me.lblGithubLink.LinkVisited = True
         Me.lblGithubLink.Location = New System.Drawing.Point(58, 321)
         Me.lblGithubLink.Name = "lblGithubLink"
-        Me.lblGithubLink.Size = New System.Drawing.Size(252, 12)
+        Me.lblGithubLink.Size = New System.Drawing.Size(289, 12)
         Me.lblGithubLink.TabIndex = 7
         Me.lblGithubLink.TabStop = True
-        Me.lblGithubLink.Text = "https://github.com/tonywang806/BaseJapanese"
+        Me.lblGithubLink.Text = "https://github.com/tonywang806/LearingBaseJapanese"
         '
         'pnlFavoriteIcon
         '
@@ -192,9 +192,11 @@ Partial Class frmMain
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Red
         Me.Label1.Location = New System.Drawing.Point(4, 141)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 12)
+        Me.Label1.Size = New System.Drawing.Size(83, 12)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "点我有惊喜！"
         '
@@ -216,7 +218,7 @@ Partial Class frmMain
         Me.GroupBox1.Size = New System.Drawing.Size(204, 48)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "grpPlayMode"
+        Me.GroupBox1.Text = "モード"
         '
         'Label2
         '
