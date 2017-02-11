@@ -33,4 +33,9 @@ Public Class frmMain
         Dim frmDisplay As New frmShow50SymbolsAll
         frmDisplay.ShowDialog()
     End Sub
+
+    Private Sub btnBody_Click(sender As Object, e As EventArgs) Handles btnBody.Click
+        Dim frmDisplay As New frmShowBody
+        frmDisplay.ShowDialog()
+    End Sub
 End Class
