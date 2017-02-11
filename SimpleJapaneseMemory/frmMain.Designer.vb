@@ -42,26 +42,27 @@ Partial Class frmMain
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.btnBody = New System.Windows.Forms.Button()
         Me.pnlFavoriteIcon.SuspendLayout()
         Me.grpDisplayOrderSetting.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnFirst
         '
-        Me.btnFirst.Location = New System.Drawing.Point(16, 231)
-        Me.btnFirst.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnFirst.Location = New System.Drawing.Point(6, 231)
+        Me.btnFirst.Margin = New System.Windows.Forms.Padding(4)
         Me.btnFirst.Name = "btnFirst"
-        Me.btnFirst.Size = New System.Drawing.Size(124, 44)
+        Me.btnFirst.Size = New System.Drawing.Size(120, 44)
         Me.btnFirst.TabIndex = 0
         Me.btnFirst.Text = "五十音図"
         Me.btnFirst.UseVisualStyleBackColor = True
         '
         'btnSecond
         '
-        Me.btnSecond.Location = New System.Drawing.Point(357, 282)
-        Me.btnSecond.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSecond.Location = New System.Drawing.Point(254, 282)
+        Me.btnSecond.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSecond.Name = "btnSecond"
-        Me.btnSecond.Size = New System.Drawing.Size(124, 44)
+        Me.btnSecond.Size = New System.Drawing.Size(120, 44)
         Me.btnSecond.TabIndex = 0
         Me.btnSecond.Tag = "Date"
         Me.btnSecond.Text = "日付"
@@ -69,10 +70,10 @@ Partial Class frmMain
         '
         'btnThird
         '
-        Me.btnThird.Location = New System.Drawing.Point(185, 231)
-        Me.btnThird.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnThird.Location = New System.Drawing.Point(130, 231)
+        Me.btnThird.Margin = New System.Windows.Forms.Padding(4)
         Me.btnThird.Name = "btnThird"
-        Me.btnThird.Size = New System.Drawing.Size(124, 44)
+        Me.btnThird.Size = New System.Drawing.Size(120, 44)
         Me.btnThird.TabIndex = 0
         Me.btnThird.Tag = "Numberic"
         Me.btnThird.Text = "数値"
@@ -80,10 +81,10 @@ Partial Class frmMain
         '
         'btnSixth
         '
-        Me.btnSixth.Location = New System.Drawing.Point(185, 334)
-        Me.btnSixth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSixth.Location = New System.Drawing.Point(130, 334)
+        Me.btnSixth.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSixth.Name = "btnSixth"
-        Me.btnSixth.Size = New System.Drawing.Size(124, 44)
+        Me.btnSixth.Size = New System.Drawing.Size(120, 44)
         Me.btnSixth.TabIndex = 0
         Me.btnSixth.Tag = "Place"
         Me.btnSixth.Text = "地名"
@@ -91,10 +92,10 @@ Partial Class frmMain
         '
         'btnForth
         '
-        Me.btnForth.Location = New System.Drawing.Point(357, 334)
-        Me.btnForth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForth.Location = New System.Drawing.Point(254, 334)
+        Me.btnForth.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForth.Name = "btnForth"
-        Me.btnForth.Size = New System.Drawing.Size(124, 44)
+        Me.btnForth.Size = New System.Drawing.Size(120, 44)
         Me.btnForth.TabIndex = 0
         Me.btnForth.Tag = "Weeks"
         Me.btnForth.Text = "曜日"
@@ -102,10 +103,10 @@ Partial Class frmMain
         '
         'btnFifth
         '
-        Me.btnFifth.Location = New System.Drawing.Point(357, 231)
-        Me.btnFifth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnFifth.Location = New System.Drawing.Point(254, 231)
+        Me.btnFifth.Margin = New System.Windows.Forms.Padding(4)
         Me.btnFifth.Name = "btnFifth"
-        Me.btnFifth.Size = New System.Drawing.Size(124, 44)
+        Me.btnFifth.Size = New System.Drawing.Size(120, 44)
         Me.btnFifth.TabIndex = 0
         Me.btnFifth.Tag = "Month"
         Me.btnFifth.Text = "月"
@@ -116,7 +117,7 @@ Partial Class frmMain
         Me.rdoRandom.AutoSize = True
         Me.rdoRandom.Checked = True
         Me.rdoRandom.Location = New System.Drawing.Point(15, 59)
-        Me.rdoRandom.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rdoRandom.Margin = New System.Windows.Forms.Padding(4)
         Me.rdoRandom.Name = "rdoRandom"
         Me.rdoRandom.Size = New System.Drawing.Size(72, 19)
         Me.rdoRandom.TabIndex = 0
@@ -128,7 +129,7 @@ Partial Class frmMain
         '
         Me.rdoFixed.AutoSize = True
         Me.rdoFixed.Location = New System.Drawing.Point(15, 26)
-        Me.rdoFixed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.rdoFixed.Margin = New System.Windows.Forms.Padding(4)
         Me.rdoFixed.Name = "rdoFixed"
         Me.rdoFixed.Size = New System.Drawing.Size(78, 19)
         Me.rdoFixed.TabIndex = 0
@@ -137,10 +138,10 @@ Partial Class frmMain
         '
         'btnEigth
         '
-        Me.btnEigth.Location = New System.Drawing.Point(185, 282)
-        Me.btnEigth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnEigth.Location = New System.Drawing.Point(130, 282)
+        Me.btnEigth.Margin = New System.Windows.Forms.Padding(4)
         Me.btnEigth.Name = "btnEigth"
-        Me.btnEigth.Size = New System.Drawing.Size(124, 44)
+        Me.btnEigth.Size = New System.Drawing.Size(120, 44)
         Me.btnEigth.TabIndex = 3
         Me.btnEigth.Tag = "Orientation"
         Me.btnEigth.Text = "方位"
@@ -148,10 +149,10 @@ Partial Class frmMain
         '
         'btnSeventh
         '
-        Me.btnSeventh.Location = New System.Drawing.Point(16, 282)
-        Me.btnSeventh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnSeventh.Location = New System.Drawing.Point(6, 282)
+        Me.btnSeventh.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSeventh.Name = "btnSeventh"
-        Me.btnSeventh.Size = New System.Drawing.Size(124, 44)
+        Me.btnSeventh.Size = New System.Drawing.Size(120, 44)
         Me.btnSeventh.TabIndex = 4
         Me.btnSeventh.Tag = "Direction"
         Me.btnSeventh.Text = "方向"
@@ -170,10 +171,10 @@ Partial Class frmMain
         '
         'btnNinth
         '
-        Me.btnNinth.Location = New System.Drawing.Point(16, 334)
-        Me.btnNinth.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnNinth.Location = New System.Drawing.Point(6, 334)
+        Me.btnNinth.Margin = New System.Windows.Forms.Padding(4)
         Me.btnNinth.Name = "btnNinth"
-        Me.btnNinth.Size = New System.Drawing.Size(124, 44)
+        Me.btnNinth.Size = New System.Drawing.Size(120, 44)
         Me.btnNinth.TabIndex = 3
         Me.btnNinth.Tag = "Color"
         Me.btnNinth.Text = "色"
@@ -199,7 +200,7 @@ Partial Class frmMain
         Me.pnlFavoriteIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pnlFavoriteIcon.Controls.Add(Me.Label1)
         Me.pnlFavoriteIcon.Location = New System.Drawing.Point(16, 15)
-        Me.pnlFavoriteIcon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pnlFavoriteIcon.Margin = New System.Windows.Forms.Padding(4)
         Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
         Me.pnlFavoriteIcon.Size = New System.Drawing.Size(293, 197)
         Me.pnlFavoriteIcon.TabIndex = 2
@@ -221,9 +222,9 @@ Partial Class frmMain
         Me.grpDisplayOrderSetting.Controls.Add(Me.rdoRandom)
         Me.grpDisplayOrderSetting.Controls.Add(Me.rdoFixed)
         Me.grpDisplayOrderSetting.Location = New System.Drawing.Point(317, 55)
-        Me.grpDisplayOrderSetting.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grpDisplayOrderSetting.Margin = New System.Windows.Forms.Padding(4)
         Me.grpDisplayOrderSetting.Name = "grpDisplayOrderSetting"
-        Me.grpDisplayOrderSetting.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.grpDisplayOrderSetting.Padding = New System.Windows.Forms.Padding(4)
         Me.grpDisplayOrderSetting.Size = New System.Drawing.Size(164, 90)
         Me.grpDisplayOrderSetting.TabIndex = 8
         Me.grpDisplayOrderSetting.TabStop = False
@@ -232,9 +233,9 @@ Partial Class frmMain
         'GroupBox1
         '
         Me.GroupBox1.Location = New System.Drawing.Point(317, 152)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(164, 60)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
@@ -258,6 +259,17 @@ Partial Class frmMain
         Me.Label3.Size = New System.Drawing.Size(465, 1)
         Me.Label3.TabIndex = 11
         '
+        'btnBody
+        '
+        Me.btnBody.Location = New System.Drawing.Point(376, 231)
+        Me.btnBody.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnBody.Name = "btnBody"
+        Me.btnBody.Size = New System.Drawing.Size(120, 44)
+        Me.btnBody.TabIndex = 0
+        Me.btnBody.Tag = "Body"
+        Me.btnBody.Text = "体"
+        Me.btnBody.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
@@ -275,6 +287,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnSeventh)
         Me.Controls.Add(Me.pnlFavoriteIcon)
         Me.Controls.Add(Me.btnSixth)
+        Me.Controls.Add(Me.btnBody)
         Me.Controls.Add(Me.btnFifth)
         Me.Controls.Add(Me.btnThird)
         Me.Controls.Add(Me.btnForth)
@@ -283,7 +296,7 @@ Partial Class frmMain
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "基本日本語"
@@ -315,4 +328,5 @@ Partial Class frmMain
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents btnBody As Button
 End Class
