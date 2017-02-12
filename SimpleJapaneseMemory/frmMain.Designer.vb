@@ -36,15 +36,16 @@ Partial Class frmMain
         Me.lblVersion = New System.Windows.Forms.Label()
         Me.btnNinth = New System.Windows.Forms.Button()
         Me.lblGithubLink = New System.Windows.Forms.LinkLabel()
-        Me.pnlFavoriteIcon = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.grpDisplayOrderSetting = New System.Windows.Forms.GroupBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnBody = New System.Windows.Forms.Button()
-        Me.pnlFavoriteIcon.SuspendLayout()
+        Me.pnlFavoriteIcon = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnFamily = New System.Windows.Forms.Button()
         Me.grpDisplayOrderSetting.SuspendLayout()
+        Me.pnlFavoriteIcon.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnFirst
@@ -192,31 +193,6 @@ Partial Class frmMain
         Me.lblGithubLink.TabStop = True
         Me.lblGithubLink.Text = "https://github.com/tonywang806/LearingBaseJapanese/releases"
         '
-        'pnlFavoriteIcon
-        '
-        Me.pnlFavoriteIcon.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.pnlFavoriteIcon.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
-        Me.pnlFavoriteIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pnlFavoriteIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlFavoriteIcon.Controls.Add(Me.Label1)
-        Me.pnlFavoriteIcon.Location = New System.Drawing.Point(16, 15)
-        Me.pnlFavoriteIcon.Margin = New System.Windows.Forms.Padding(4)
-        Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
-        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(293, 197)
-        Me.pnlFavoriteIcon.TabIndex = 2
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Red
-        Me.Label1.Location = New System.Drawing.Point(4, 2)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 15)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Click me"
-        '
         'grpDisplayOrderSetting
         '
         Me.grpDisplayOrderSetting.Controls.Add(Me.rdoRandom)
@@ -270,6 +246,42 @@ Partial Class frmMain
         Me.btnBody.Text = "体"
         Me.btnBody.UseVisualStyleBackColor = True
         '
+        'pnlFavoriteIcon
+        '
+        Me.pnlFavoriteIcon.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.pnlFavoriteIcon.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.黄道十二宫
+        Me.pnlFavoriteIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pnlFavoriteIcon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlFavoriteIcon.Controls.Add(Me.Label1)
+        Me.pnlFavoriteIcon.Location = New System.Drawing.Point(16, 15)
+        Me.pnlFavoriteIcon.Margin = New System.Windows.Forms.Padding(4)
+        Me.pnlFavoriteIcon.Name = "pnlFavoriteIcon"
+        Me.pnlFavoriteIcon.Size = New System.Drawing.Size(293, 197)
+        Me.pnlFavoriteIcon.TabIndex = 2
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("MS UI Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(4, 2)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(70, 15)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Click me"
+        '
+        'btnFamily
+        '
+        Me.btnFamily.Location = New System.Drawing.Point(376, 282)
+        Me.btnFamily.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnFamily.Name = "btnFamily"
+        Me.btnFamily.Size = New System.Drawing.Size(120, 44)
+        Me.btnFamily.TabIndex = 0
+        Me.btnFamily.Tag = "Body"
+        Me.btnFamily.Text = "家族"
+        Me.btnFamily.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
@@ -287,6 +299,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnSeventh)
         Me.Controls.Add(Me.pnlFavoriteIcon)
         Me.Controls.Add(Me.btnSixth)
+        Me.Controls.Add(Me.btnFamily)
         Me.Controls.Add(Me.btnBody)
         Me.Controls.Add(Me.btnFifth)
         Me.Controls.Add(Me.btnThird)
@@ -300,10 +313,10 @@ Partial Class frmMain
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "基本日本語"
-        Me.pnlFavoriteIcon.ResumeLayout(False)
-        Me.pnlFavoriteIcon.PerformLayout()
         Me.grpDisplayOrderSetting.ResumeLayout(False)
         Me.grpDisplayOrderSetting.PerformLayout()
+        Me.pnlFavoriteIcon.ResumeLayout(False)
+        Me.pnlFavoriteIcon.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -329,4 +342,5 @@ Partial Class frmMain
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents btnBody As Button
+    Friend WithEvents btnFamily As Button
 End Class

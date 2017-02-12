@@ -97,6 +97,12 @@
     <Compile Include="frmShow50SymbolsAll.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmShowFamily.Designer.vb">
+      <DependentUpon>frmShowFamily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowFamily.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmShowBody.Designer.vb">
       <DependentUpon>frmShowBody.vb</DependentUpon>
     </Compile>
@@ -135,6 +141,9 @@
     <EmbeddedResource Include="frmShow50SymbolsAll.resx">
       <DependentUpon>frmShow50SymbolsAll.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowFamily.resx">
+      <DependentUpon>frmShowFamily.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmShowBody.resx">
       <DependentUpon>frmShowBody.vb</DependentUpon>
     </EmbeddedResource>
@@ -163,7 +172,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
-    <None Include="Resources\BodyAndPronouce1.png" />
+    <None Include="Resources\FamilyWithoutPronouce.png" />
+    <None Include="Resources\BodyAndNonPronouce.png" />
     <None Include="Resources\BodyAndPronouce.png" />
     <None Include="Resources\eyes-w.png" />
     <None Include="Resources\BlackBoard.png" />
