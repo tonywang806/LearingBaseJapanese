@@ -24,6 +24,7 @@ Partial Class frmShowFamily
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShowFamily))
         Me.pnlBody = New System.Windows.Forms.Panel()
+        Me.lblBigShow = New System.Windows.Forms.Label()
         Me.lblGrandMother = New System.Windows.Forms.Label()
         Me.lblGrandFather = New System.Windows.Forms.Label()
         Me.pnlSister = New System.Windows.Forms.Panel()
@@ -50,7 +51,6 @@ Partial Class frmShowFamily
         Me.lblMother = New System.Windows.Forms.Label()
         Me.lblFather = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.lblBigShow = New System.Windows.Forms.Label()
         Me.pnlBody.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -92,6 +92,17 @@ Partial Class frmShowFamily
         Me.pnlBody.Name = "pnlBody"
         Me.pnlBody.Size = New System.Drawing.Size(742, 544)
         Me.pnlBody.TabIndex = 0
+        '
+        'lblBigShow
+        '
+        Me.lblBigShow.BackColor = System.Drawing.Color.Transparent
+        Me.lblBigShow.Font = New System.Drawing.Font("有澤太楷書P", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.lblBigShow.ForeColor = System.Drawing.Color.White
+        Me.lblBigShow.Location = New System.Drawing.Point(31, 68)
+        Me.lblBigShow.Name = "lblBigShow"
+        Me.lblBigShow.Size = New System.Drawing.Size(183, 73)
+        Me.lblBigShow.TabIndex = 8
+        Me.lblBigShow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblGrandMother
         '
@@ -161,28 +172,28 @@ Partial Class frmShowFamily
         '
         'pnlUnant
         '
-        Me.pnlUnant.Location = New System.Drawing.Point(656, 238)
+        Me.pnlUnant.Location = New System.Drawing.Point(656, 235)
         Me.pnlUnant.Name = "pnlUnant"
         Me.pnlUnant.Size = New System.Drawing.Size(83, 84)
         Me.pnlUnant.TabIndex = 9
         '
         'pnlUncle
         '
-        Me.pnlUncle.Location = New System.Drawing.Point(516, 238)
+        Me.pnlUncle.Location = New System.Drawing.Point(516, 235)
         Me.pnlUncle.Name = "pnlUncle"
         Me.pnlUncle.Size = New System.Drawing.Size(83, 84)
         Me.pnlUncle.TabIndex = 9
         '
         'pnlMother
         '
-        Me.pnlMother.Location = New System.Drawing.Point(269, 233)
+        Me.pnlMother.Location = New System.Drawing.Point(269, 235)
         Me.pnlMother.Name = "pnlMother"
         Me.pnlMother.Size = New System.Drawing.Size(83, 84)
         Me.pnlMother.TabIndex = 9
         '
         'pnlFather
         '
-        Me.pnlFather.Location = New System.Drawing.Point(131, 233)
+        Me.pnlFather.Location = New System.Drawing.Point(131, 235)
         Me.pnlFather.Name = "pnlFather"
         Me.pnlFather.Size = New System.Drawing.Size(83, 84)
         Me.pnlFather.TabIndex = 9
@@ -196,9 +207,9 @@ Partial Class frmShowFamily
         '
         'pnlGrandFather
         '
-        Me.pnlGrandFather.Location = New System.Drawing.Point(318, 67)
+        Me.pnlGrandFather.Location = New System.Drawing.Point(318, 68)
         Me.pnlGrandFather.Name = "pnlGrandFather"
-        Me.pnlGrandFather.Size = New System.Drawing.Size(79, 82)
+        Me.pnlGrandFather.Size = New System.Drawing.Size(83, 82)
         Me.pnlGrandFather.TabIndex = 9
         '
         'lblSister
@@ -328,17 +339,6 @@ Partial Class frmShowFamily
         Me.btnClose.Text = "閉じる"
         Me.btnClose.UseVisualStyleBackColor = False
         '
-        'lblBigShow
-        '
-        Me.lblBigShow.BackColor = System.Drawing.Color.Transparent
-        Me.lblBigShow.Font = New System.Drawing.Font("有澤太楷書P", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.lblBigShow.ForeColor = System.Drawing.Color.White
-        Me.lblBigShow.Location = New System.Drawing.Point(31, 68)
-        Me.lblBigShow.Name = "lblBigShow"
-        Me.lblBigShow.Size = New System.Drawing.Size(183, 73)
-        Me.lblBigShow.TabIndex = 8
-        Me.lblBigShow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'frmShowFamily
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -351,6 +351,7 @@ Partial Class frmShowFamily
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmShowFamily"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmShowBody"
         Me.TransparencyKey = System.Drawing.SystemColors.Control
