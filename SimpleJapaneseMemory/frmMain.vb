@@ -38,4 +38,9 @@ Public Class frmMain
         Dim frmDisplay As New frmShowBody
         frmDisplay.ShowDialog()
     End Sub
+
+    Private Sub btnFamily_Click(sender As Object, e As EventArgs) Handles btnFamily.Click
+        Dim frmDisplay As New frmShowFamily
+        frmDisplay.ShowDialog()
+    End Sub
 End Class
