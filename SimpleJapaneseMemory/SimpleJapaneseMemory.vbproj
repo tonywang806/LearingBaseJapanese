@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JapaneseMemory.ico" />
+    <None Include="Resources\BodyAndNonPronouce.png" />
     <None Include="Resources\BodyAndPronouce1.png" />
     <None Include="Resources\BodyAndPronouce.png" />
     <None Include="Resources\eyes-w.png" />

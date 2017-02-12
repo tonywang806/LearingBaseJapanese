@@ -73,6 +73,16 @@ Namespace My.Resources
         '''<summary>
         '''  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         '''</summary>
+        Friend ReadOnly Property BodyAndNonPronouce() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("BodyAndNonPronouce", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        '''</summary>
         Friend ReadOnly Property BodyAndPronouce() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("BodyAndPronouce", resourceCulture)

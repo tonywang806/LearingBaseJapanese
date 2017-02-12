@@ -24,21 +24,21 @@ Partial Class frmShowBody
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmShowBody))
         Me.pnlBody = New System.Windows.Forms.Panel()
-        Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.Panel11 = New System.Windows.Forms.Panel()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.pnlBody.SuspendLayout()
         Me.SuspendLayout()
@@ -49,147 +49,207 @@ Partial Class frmShowBody
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlBody.BackColor = System.Drawing.Color.Transparent
-        Me.pnlBody.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.BodyAndPronouce
+        Me.pnlBody.BackgroundImage = Global.SimpleJapaneseMemory.My.Resources.Resources.BodyAndNonPronouce
         Me.pnlBody.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pnlBody.Controls.Add(Me.Panel15)
-        Me.pnlBody.Controls.Add(Me.Panel14)
-        Me.pnlBody.Controls.Add(Me.Panel13)
-        Me.pnlBody.Controls.Add(Me.Panel12)
-        Me.pnlBody.Controls.Add(Me.Panel11)
-        Me.pnlBody.Controls.Add(Me.Panel10)
-        Me.pnlBody.Controls.Add(Me.Panel9)
-        Me.pnlBody.Controls.Add(Me.Panel8)
-        Me.pnlBody.Controls.Add(Me.Panel7)
-        Me.pnlBody.Controls.Add(Me.Panel6)
-        Me.pnlBody.Controls.Add(Me.Panel5)
-        Me.pnlBody.Controls.Add(Me.Panel4)
-        Me.pnlBody.Controls.Add(Me.Panel3)
-        Me.pnlBody.Controls.Add(Me.Panel2)
-        Me.pnlBody.Controls.Add(Me.Panel1)
+        Me.pnlBody.Controls.Add(Me.Label5)
+        Me.pnlBody.Controls.Add(Me.Label14)
+        Me.pnlBody.Controls.Add(Me.Label13)
+        Me.pnlBody.Controls.Add(Me.Label12)
+        Me.pnlBody.Controls.Add(Me.Label11)
+        Me.pnlBody.Controls.Add(Me.Label10)
+        Me.pnlBody.Controls.Add(Me.Label9)
+        Me.pnlBody.Controls.Add(Me.Label8)
+        Me.pnlBody.Controls.Add(Me.Label7)
+        Me.pnlBody.Controls.Add(Me.Label6)
+        Me.pnlBody.Controls.Add(Me.Label4)
+        Me.pnlBody.Controls.Add(Me.Label3)
+        Me.pnlBody.Controls.Add(Me.Label15)
+        Me.pnlBody.Controls.Add(Me.Label2)
+        Me.pnlBody.Controls.Add(Me.Label1)
         Me.pnlBody.Location = New System.Drawing.Point(301, 73)
         Me.pnlBody.Name = "pnlBody"
         Me.pnlBody.Size = New System.Drawing.Size(742, 544)
         Me.pnlBody.TabIndex = 0
         '
-        'Panel15
+        'Label5
         '
-        Me.Panel15.BackColor = System.Drawing.Color.White
-        Me.Panel15.Location = New System.Drawing.Point(634, 503)
-        Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(90, 31)
-        Me.Panel15.TabIndex = 0
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.Location = New System.Drawing.Point(10, 355)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(105, 45)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Tag = "て"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel14
+        'Label14
         '
-        Me.Panel14.BackColor = System.Drawing.Color.White
-        Me.Panel14.Location = New System.Drawing.Point(634, 440)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(90, 31)
-        Me.Panel14.TabIndex = 0
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label14.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label14.Location = New System.Drawing.Point(627, 498)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(105, 45)
+        Me.Label14.TabIndex = 1
+        Me.Label14.Tag = "おしり"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel13
+        'Label13
         '
-        Me.Panel13.BackColor = System.Drawing.Color.White
-        Me.Panel13.Location = New System.Drawing.Point(634, 376)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(90, 31)
-        Me.Panel13.TabIndex = 0
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label13.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label13.Location = New System.Drawing.Point(627, 436)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(105, 45)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Tag = "こし"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel12
+        'Label12
         '
-        Me.Panel12.BackColor = System.Drawing.Color.White
-        Me.Panel12.Location = New System.Drawing.Point(496, 238)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(87, 31)
-        Me.Panel12.TabIndex = 0
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label12.Location = New System.Drawing.Point(627, 372)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(105, 45)
+        Me.Label12.TabIndex = 1
+        Me.Label12.Tag = "せなか"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel11
+        'Label11
         '
-        Me.Panel11.BackColor = System.Drawing.Color.White
-        Me.Panel11.Location = New System.Drawing.Point(496, 181)
-        Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(87, 31)
-        Me.Panel11.TabIndex = 0
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label11.Location = New System.Drawing.Point(490, 235)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(105, 45)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Tag = "くち"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel10
+        'Label10
         '
-        Me.Panel10.BackColor = System.Drawing.Color.White
-        Me.Panel10.Location = New System.Drawing.Point(496, 125)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(87, 31)
-        Me.Panel10.TabIndex = 0
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label10.Location = New System.Drawing.Point(489, 178)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(105, 45)
+        Me.Label10.TabIndex = 1
+        Me.Label10.Tag = "はな"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel9
+        'Label9
         '
-        Me.Panel9.BackColor = System.Drawing.Color.White
-        Me.Panel9.Location = New System.Drawing.Point(496, 70)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(87, 31)
-        Me.Panel9.TabIndex = 0
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label9.Location = New System.Drawing.Point(489, 123)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(105, 45)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Tag = "みみ"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel8
+        'Label8
         '
-        Me.Panel8.BackColor = System.Drawing.Color.White
-        Me.Panel8.Location = New System.Drawing.Point(16, 471)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(91, 31)
-        Me.Panel8.TabIndex = 0
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label8.Location = New System.Drawing.Point(489, 66)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(105, 45)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Tag = "め"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel7
+        'Label7
         '
-        Me.Panel7.BackColor = System.Drawing.Color.White
-        Me.Panel7.Location = New System.Drawing.Point(16, 417)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(91, 31)
-        Me.Panel7.TabIndex = 0
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label7.Location = New System.Drawing.Point(10, 466)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(105, 45)
+        Me.Label7.TabIndex = 1
+        Me.Label7.Tag = "あし"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel6
+        'Label6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(16, 361)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(91, 31)
-        Me.Panel6.TabIndex = 0
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.Location = New System.Drawing.Point(10, 410)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(105, 45)
+        Me.Label6.TabIndex = 1
+        Me.Label6.Tag = "ゆび"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel5
+        'Label4
         '
-        Me.Panel5.BackColor = System.Drawing.Color.White
-        Me.Panel5.Location = New System.Drawing.Point(104, 299)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(89, 31)
-        Me.Panel5.TabIndex = 0
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.Location = New System.Drawing.Point(97, 294)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(105, 45)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Tag = "おなか"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel4
+        'Label3
         '
-        Me.Panel4.BackColor = System.Drawing.Color.White
-        Me.Panel4.Location = New System.Drawing.Point(104, 247)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(89, 31)
-        Me.Panel4.TabIndex = 0
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.Location = New System.Drawing.Point(97, 240)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(105, 45)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Tag = "かた"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel3
+        'Label15
         '
-        Me.Panel3.BackColor = System.Drawing.Color.White
-        Me.Panel3.Location = New System.Drawing.Point(104, 193)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(89, 31)
-        Me.Panel3.TabIndex = 0
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label15.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label15.Location = New System.Drawing.Point(97, 132)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(105, 45)
+        Me.Label15.TabIndex = 1
+        Me.Label15.Tag = "かお"
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel2
+        'Label2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.White
-        Me.Panel2.Location = New System.Drawing.Point(104, 138)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(89, 31)
-        Me.Panel2.TabIndex = 0
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(96, 187)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(105, 45)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Tag = "くび"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel1
+        'Label1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Location = New System.Drawing.Point(104, 81)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(89, 31)
-        Me.Panel1.TabIndex = 0
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("有澤太楷書P", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.Location = New System.Drawing.Point(96, 76)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(105, 45)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Tag = "あたま"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnClose
         '
@@ -229,19 +289,19 @@ Partial Class frmShowBody
 
     Friend WithEvents pnlBody As Panel
     Friend WithEvents btnClose As Button
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel15 As Panel
-    Friend WithEvents Panel14 As Panel
-    Friend WithEvents Panel13 As Panel
-    Friend WithEvents Panel12 As Panel
-    Friend WithEvents Panel11 As Panel
-    Friend WithEvents Panel10 As Panel
-    Friend WithEvents Panel9 As Panel
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class
